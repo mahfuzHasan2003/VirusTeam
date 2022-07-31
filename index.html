@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title></title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&display=swap');
+      *{
+         font-family: 'Hind Siliguri', sans-serif;
+      }
+      /* .form-control:focus {
+         color: #212529;
+         background-color: #fff;
+         outline: 0;
+         box-shadow: none;
+         border: 1px solid #999;
+      }
+      .form-control{
+         border: 1px solid #9999;
+      } */
+      .btn-check:active+.btn:focus, .btn-check:checked+.btn:focus, .btn.active:focus, .btn.show:focus, .btn:active:focus, .btn-check:focus+.btn, .btn:focus{
+         box-shadow: none;
+      }
+      body{
+         background-color: #e5e5e5;
+      }
+      .navbar-toggler:focus {
+         box-shadow: none;
+         border: 1px solid #999;
+      }
+      .dropdown-menu[data-bs-popper]{
+         top: 112%;
+         left: auto;
+         right: 0;
+         text-align: right;
+      }
+      .border-me{
+         border-bottom: 1px solid #eeeeee;
+         border-top: 1px solid #eeeeee;
+      }
+      .dropdown-menu li:hover a{
+         border-left: 3px solid lightgreen;
+      }
+      @media all and (min-width: 992px) {
+      
+      .dropdown-menu li{
+         position: relative;
+      }
+      .dropdown-menu .submenu{ 
+         display: none;
+         position: absolute;
+         left: 100%; top:0px;
+      }
+      .dropdown-menu .submenu-left{ 
+         right:100%; left:auto;
+      }
+   
+      .dropdown-menu > li:hover{ background-color: #f1f1f1 }
+      .dropdown-menu > li:hover > .submenu{
+         display: block;
+      }
+   }	
+   @media (max-width: 991px) {
+   .dropdown-menu .dropdown-menu{
+      margin-left:0.7rem; margin-right:0.7rem; margin-bottom: .5rem;
+   }
+   .dropdown-menu[data-bs-popper]{
+      text-align: left;
+      left: auto;
+      right: 0;
+   }
+   }
+
+   .mahfuz{
+      background-color: rgba(165, 42, 42, 0.1);
+   }
+   .mugdho{
+      background-color: rgba(0, 100, 0, 0.1);
+   }
+   .papon{
+      background-color: rgba(184, 134, 11, 0.1);
+   }
+   .roni{
+      background-color: rgba(32, 178, 170, 0.1);
+   }
+
+   </style>
+</head>
+<body>
+   <div class="nav-bar">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+         <div class="container-fluid">
+             <a class="navbar-brand" href="#"><img src="Images/Logo.png" style="width: 100px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          <div class="collapse navbar-collapse" id="main_nav">
+           <ul class="navbar-nav ms-auto">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mahfuz </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                     <li><a class="dropdown-item" href="https://www.facebook.com/callmemahfuz" target="_blank"> Facebook </a></li>
+                     <li class=" border-me"><a class="dropdown-item" href="#"> Instagram </a></li>
+                     <li><a class="dropdown-item" href="mailto:mahfuzhasan2003@yahoo.com"> E-mail </a> </li>
+                  </ul>
+               </li>
+               <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Mugdho </a>
+               <ul class="dropdown-menu dropdown-menu-right">
+                  <li><a class="dropdown-item" href="https://www.facebook.com/mugdho.munsi" target="_blank"> Facebook </a></li>
+                  <li class=" border-me"><a class="dropdown-item" href="#"> Instagram </a></li>
+                  <li><a class="dropdown-item" href="#"> E-mail </a> </li>
+               </ul>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Papon </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                     <li><a class="dropdown-item" href="https://www.facebook.com/profile.php?id=100082951040639" target="_blank"> Facebook </a></li>
+                     <li class=" border-me"><a class="dropdown-item" href="#"> Instagram </a></li>
+                     <li><a class="dropdown-item" href="mailto:humayunrashidpapon69@gmail.com"> E-mail </a> </li>
+                  </ul>
+               </li>
+               <li class="nav-item dropdown">
+                 <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"> Roni </a>
+                  <ul class="dropdown-menu dropdown-menu-right">
+                     <li><a class="dropdown-item" href="https://www.facebook.com/mdrani.hossin.3" target="_blank"> Facebook </a></li>
+                     <li class=" border-me"><a class="dropdown-item" href="#"> Instagram </a></li>
+                     <li><a class="dropdown-item" href="mailto:reyyt7u87y@gmail.com"> E-mail </a> </li>
+                  </ul>
+               </li>
+          </div>
+         </div>
+        </nav>
+   </div>
+   <div class="mahfuz container rounded">
+      <div class=" d-flex row mt-3 align-items-center p-2">
+         <div class="col-md-8">
+            <h2 style="font-weight: 900;">আমি <span style="color: brown">মাহফুজ</span></h2>
+            <p class="w-75">২০২০ সালে টাকা পয়সার অভাবে পরে বাগেরহাট থেকে গোপালগঞ্জ পলিটেকনিক এ আসি ডাক্তারি পরতে।🥀 একজন সফল ডাক্তার হয়ে বের হওয়ার জন্য চাইলে আপনিও আমাকে টাকা দিয়ে হেল্প করতে পারেন. </p>
+            <button class="btn btn-dark" onclick="alert('লল!🤣 লাগবে না টাকা. ছোটোলোক হতে পারি, কিন্তু গরিব না।')">ডোনেট করুণ 💸💰</button>
+         </div>
+         <div class="col-md-4">
+            <img src="Images/Mahfuz.png" class="w-75 d-block m-auto">
+         </div>
+      </div>
+   </div>
+   <div class="mugdho container rounded">
+      <div class="section d-flex row mt-3 align-items-center p-2">
+         <div class="col-md-8">
+            <h2 style="font-weight: 900;">আমি <span style="color: darkgreen">মুগ্ধ</span></h2>
+            <p class="w-75">আমি মুগ্ধ মুন্সী, খুব ইচ্ছা করে এসেছিলাম ডিপ্লোমা ইঞ্জিনিয়ার হতে কম্পিউটার ডিপার্টমেন্ট এ। আমি হয়তো বেশিদিন বাঁচবো না এই দুনিয়ায়, তবে দুনিয়া থেকে বিদায় নেওয়ার আগে আমি আমার ডিপার্টমেন্ট পরিবর্তন করে মরতে চাই! 😔</p>
+         </div>
+         <div class="col-md-4">
+            <img src="Images/Mugdho.png" class="w-75 d-block m-auto">
+         </div>
+      </div>
+   </div>
+   <div class="papon container rounded">
+      <div class=" d-flex row mt-3 align-items-center p-2">
+         <div class="col-md-8">
+            <h2 style="font-weight: 900;">আমি <span style="color:darkgoldenrod">পাপন</span></h2>
+            <p class="w-75"> আমার নাম হুমায়ন রশিদ পাপন। আমি বর্তমানে গোপালগঞ্জ পলিটেকনিক এর কম্পিউটার ডিপার্টমেন্টে অধ্যায়নত একজন ছাত্র। একটা ছোট গ্রাম থেকে একজন তুচ্ছ বালক এবং সাথে নিয়ে আসা অনেক বড় বড় স্বপ্ন। আমার ছোট বেলা থেকেই ইচ্ছা এবং স্বপ্ন ছিল কম্পিউটার বিষয় নিয়ে পড়ালেখা করা। কম্পিউটার নিয়ে বড় কিছু একটা করে দেখানো। তাই আমিও খেস্তে খেস্তে গোপালগঞ্জ চলে আসি।<span id="dots">...</span><span id="more" style="display: none;">এখানে শুরুর ২ সেমিস্টার খুব ভালোই লাগছিলো। কিন্তু যখন ৩য় সেমিস্টার  এ উঠি তখন বুঝতে পারলাম যে, প্রকৃত পক্ষে চুদন কাকে বলে এবং কতো প্রকার ও কি কি? !! শুরুর দিকে প্রথম ২ সেমিস্টার প্রেম পিরিতি নিয়া একটু খিস খাইয়া গেছিলাম। নিজের জীবন থেকে পথব্রষ্ঠ ছিলাম। কিছুদিন পর আমি প্রেম পিরিতির মারেও চুদে দেই। এখন সেই শোক ভুলার জন্য আমি নিয়মিত গাঞ্জা সেবন করতে থাকি। আমার মতে গাঞ্জা খুবই উপকার মুলক একটা জিনিস। যাই হোক এখন এই নেশার কথা বাদ দেই, পরে কোন এক সময় বলবো। কথা হচ্ছে ৩য় সেমিস্টার নিয়ে। যখন বুঝতে পারলাম যে এই কম্পিউটার অন আর অফ করতে পারলে কেউ চাকরি দিবে না, তখন বুঝলাম খুবই বড় মাপের চুদন খেতে হবে। তো এই চুদন এর নাম হল কোডিং এবং চুদন এর প্রকারভেদ হল html, css, javascript,python, bootstrap আরও অনেক চুদন আছে। এখন প্রতিনিয়ত এরকম চুদন খেতে খেতেই বড় হচ্ছি। জীবন যুদ্ধে লড়াই করেই যাচ্ছি এবং করতে থাকবো এক অবিরাম সৈনিকের মতো যতদিন না পর্যন্ত এই যুদ্ধ শেষ হবে অথবা এই জীবন।</span> <br>
+               <button onclick="myFunction()" id="myBtn">Read more</button>
+            </p>
+         </div>
+         <div class="col-md-4">
+            <img src="Images/Papon.png" class="w-75 d-block m-auto">
+         </div>
+      </div>
+   </div>
+   <div class="roni container rounded">
+      <div class="section d-flex row mt-3 align-items-center p-2">
+         <div class="col-md-8">
+            <h2 style="font-weight: 900;">আমি <span style="color:lightseagreen">রনি</span></h2>
+            <p class="w-75"> ভুলবশত পলিটেকনিক লাইফে প্রথম সেমিস্টার এ ক্যাপ্টেন এর দায়িত্ব নিছিলাম! তারপর থেকে আমি সব মেয়েদের সাথে কথা বলি - ম্যাসেঞ্জার এ এড আছি! ভালোই সময় কাটে বিনোদন এ।😋</p>
+            <button class="btn btn-success" onclick="alert('I Love You Babe.. Ummmmmmmmmmmmmmmmmmaaaaaaaaaaaaaaaaaaaaahhhhhh')">Take a propose from me!🥺</button>
+         </div>
+         <div class="col-md-4">
+            <img src="Images/Roni.png" class="w-75 d-block m-auto">
+         </div>
+      </div>
+   </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+   <script type="text/javascript">
+      //	window.addEventListener("resize", function() {
+      //		"use strict"; window.location.reload(); 
+      //	});
+      function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+
+      if (dots.style.display === "none") {
+         dots.style.display = "inline";
+         btnText.innerHTML = "Read more";
+         moreText.style.display = "none";
+      } else {
+         dots.style.display = "none";
+         btnText.innerHTML = "Read less";
+         moreText.style.display = "inline";
+      }
+      }
+      
+         document.addEventListener("DOMContentLoaded", function(){
+              
+      
+             /////// Prevent closing from click inside dropdown
+            document.querySelectorAll('.dropdown-menu').forEach(function(element){
+               element.addEventListener('click', function (e) {
+                 e.stopPropagation();
+               });
+            })
+      
+      
+      
+            // make it as accordion for smaller screens
+            if (window.innerWidth < 992) {
+      
+               // close all inner dropdowns when parent is closed
+               document.querySelectorAll('.navbar .dropdown').forEach(function(everydropdown){
+                  everydropdown.addEventListener('hidden.bs.dropdown', function () {
+                     // after dropdown is hidden, then find all submenus
+                       this.querySelectorAll('.submenu').forEach(function(everysubmenu){
+                          // hide every submenu as well
+                          everysubmenu.style.display = 'none';
+                       });
+                  })
+               });
+               
+               document.querySelectorAll('.dropdown-menu a').forEach(function(element){
+                  element.addEventListener('click', function (e) {
+            
+                       let nextEl = this.nextElementSibling;
+                       if(nextEl && nextEl.classList.contains('submenu')) {	
+                          // prevent opening link if link needs to open dropdown
+                          e.preventDefault();
+                          console.log(nextEl);
+                          if(nextEl.style.display == 'block'){
+                             nextEl.style.display = 'none';
+                          } else {
+                             nextEl.style.display = 'block';
+                          }
+      
+                       }
+                  });
+               })
+            }
+            // end if innerWidth
+      
+         }); 
+         // DOMContentLoaded  end
+   </script>
+</body>
+</html>
